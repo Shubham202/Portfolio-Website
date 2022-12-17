@@ -211,6 +211,19 @@ img {
     top: -25px;
 }
 
+.loader {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
 @media (max-width: 1110px) {
     .scrollbar {
         display: none;

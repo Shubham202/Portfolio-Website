@@ -13,3 +13,7 @@ document.querySelector('.scrollbar').style.left = (window.innerWidth-1110)/4 + '
 // window.addEventListener("mousemove", e => {
 //     cursor.style.transform = `translate(${e.clientX}px,${e.clientY}px)`;
 // });
+
+window.addEventListener('load', () => {
+    document.querySelector('.loader').style.display = 'none';
+});
